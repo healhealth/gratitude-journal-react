@@ -1,0 +1,9 @@
+.PageForm {
+  min-height: 100%;
+  display: grid;
+  grid-template-rows: min-content auto;
+}
+
+.EveningForm {
+  background-color: hsl(0, 0%, 90%);
+}

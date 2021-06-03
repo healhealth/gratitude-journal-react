@@ -1,5 +1,6 @@
-import "./App.css";
 import PageForm from "./components/PageForm/PageForm";
+
+import "./App.css";
 
 const App = () => {
   return (
