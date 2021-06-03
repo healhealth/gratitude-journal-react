@@ -4,6 +4,17 @@
   grid-template-rows: min-content auto;
 }
 
+.MorningForm,
+.EveningForm {
+  padding-block: 24px;
+  padding-inline: 20px;
+}
+
 .EveningForm {
   background-color: hsl(0, 0%, 90%);
+}
+
+.AlignCenter {
+  max-width: 720px;
+  margin: 0 auto;
 }

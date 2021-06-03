@@ -1,0 +1,5 @@
+.PageFormItemTextarea {
+  width: 100%;
+  resize: none;
+  overflow: hidden;
+}

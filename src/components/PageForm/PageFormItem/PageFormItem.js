@@ -1,8 +1,10 @@
+import "./PageFormItem.css";
+
 const PageFormItem = (props) => {
   return (
     <div>
       <p>{props.leadText}</p>
-      <textarea></textarea>
+      <textarea className="PageFormItemTextarea"></textarea>
     </div>
   );
 };
