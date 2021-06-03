@@ -1,9 +1,10 @@
 import "./App.css";
+import PageForm from "./components/PageForm/PageForm";
 
 const App = () => {
   return (
     <div className="App">
-      <p>Hello world!</p>
+      <PageForm />
     </div>
   );
 };
