@@ -15,8 +15,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test --passWithNoTests",
     "eject": "react-scripts eject",
-    "lint": "npm run lint-js; npm run lint-css",
-    "lint-js": "eslint ./src",
+    "lint": "npm run lint-js && npm run lint-css",
+    "lint-js": "eslint \"**/*.{ts,tsx}\"",
     "lint-css": "stylelint \"**/*.css\"",
     "prettier": "prettier --check .",
     "test:coverage": "npm test -- --coverage --watchAll=false"
